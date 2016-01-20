@@ -2,17 +2,24 @@
 
 This is snort file capture test automation suite. 
  * Install the Robot framework:
-        #pip install robotframework
+ <br>
+        <b>pip install robotframework</b>
+<br>
  For more info read the following:
+<br>
         https://code.google.com/p/robotframework/wiki/Installation
+<br>
         http://robotframework.org/
 
  * clone this repo:
+ <br>
     vvk@ ~/tmp $ git clone https://github.com/kunschikov/snort.robot.git
+<br>    
     vvk@ ~/tmp $ cd snort.robot/
 * modify the file_inspect.robot: set the SNORT and SNORTOPT variables to your system setup
 
 *  run the suite:
+    <pre>
     vvk@ ~/tmp/snort.robot $ pybot file_inspect.robot 
     ==============================================================================
     File Inspect                                                                  
@@ -33,6 +40,5 @@ This is snort file capture test automation suite.
     Output:  /home/vvk/tmp/snort.robot/output.xml
     Log:     /home/vvk/tmp/snort.robot/log.html
     Report:  /home/vvk/tmp/snort.robot/report.html
-    vvk@ ~/tmp/snort.robot $ 
-
+</pre>
 
