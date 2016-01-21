@@ -75,3 +75,5 @@ imap png       imap/imap_png.pcap                 file.png
 imap torrent   imap/imap_torrent.pcap             file.torrent
 smtp png       smtp/smtp_png.pcap                 file.png
 smtp torrent   smtp/smtp_torrent.pcap             file.torrent
+
+smb text       smb/smb.test.c.pcap                test.c
